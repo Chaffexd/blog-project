@@ -1,7 +1,9 @@
 // use slug for more human readable urls
 
+import PostContent from "../../components/posts/post-detail/PostContent";
+
 const PostDetailPage = () => {
-  return <div>he</div>;
+  return <PostContent />;
 };
 
 export default PostDetailPage;
