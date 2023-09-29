@@ -24,7 +24,7 @@ const PostItem = (props) => {
             alt={title}
             width={300}
             height={200}
-            layout="responsive"
+            priority={false}
           />
         </div>
         <div className={classes.content}>
